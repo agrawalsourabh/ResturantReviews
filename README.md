@@ -7,6 +7,9 @@ Our dataset contains two columns - a) Reviews b) Liked </br>
 a) **Review**: This column contains the review of the customer in text format. </br>
 b) **Liked**: This column contains binary value 1 and 0, informing whether the customer liked the restuarnt or not.</br>
 
+### Basic Idea
+Basic Idea behind the model creation is - we will create a column for every word in the review column, and if the particular word present in the review, then we put 1 and if not then we put 0. This will undoubtly creates a sparse matrix. 
+
 ## Cleaning the text
 I use Text Mining Package (tm) in R to clean the text. Did following operations to clean the text.
 <ul>
