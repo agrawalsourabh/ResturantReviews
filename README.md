@@ -10,7 +10,7 @@ b) **Liked**: This column contains binary value 1 and 0, informing whether the c
 ### Basic Idea
 Basic Idea behind the model creation is - we will create a column for every word in the review column, and if the particular word present in the review, then we put 1 and if not then we put 0. This will undoubtly creates a sparse matrix. 
 
-## Cleaning the text
+### Cleaning the text
 I use Text Mining Package (tm) in R to clean the text. Did following operations to clean the text.
 <ul>
   1. Convert all text to lower case. So there should only be one instance present of that word.
