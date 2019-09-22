@@ -3,9 +3,9 @@ A MachineLearning problem to predict whether a customer liked the resturant or n
 
 ## Input
 ### Dataset
-Our dataset contains two columns - a) Reviews b) Liked
-a) #### Review: This column contains the review of the customer in text format.
-b) #### Liked: This column contains binary value 1 and 0, informing whether the customer liked the restuarnt or not.
+Our dataset contains two columns - a) Reviews b) Liked </br>
+a) **Review**: This column contains the review of the customer in text format. </br>
+b) **Liked**: This column contains binary value 1 and 0, informing whether the customer liked the restuarnt or not.</br>
 
 ## Cleaning the text
 I use Text Mining Package (tm) in R to clean the text. Did following operations to clean the text.
